@@ -88,6 +88,22 @@ Project 1: Deploying VPC, Internet Gateway, Subnets and Route-table
 # Day 5: Working with Data
     Creating and using Terraform modules
     Terraform lifecycle
+        * create_before_destroy = false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Day 6: Advanced Terraform Concepts
     Terraform Count and For-each

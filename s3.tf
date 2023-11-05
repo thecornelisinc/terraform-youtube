@@ -4,6 +4,11 @@ resource "aws_s3_bucket" "backend" {
   tags = {
     Name        = "Terraform-backend"
     Environment = "Dev"
+    Cost-center = "Development"
+  }
+
+  lifecycle {
+    prevent_destroy = true
   }
 }
 
