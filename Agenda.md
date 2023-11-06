@@ -11,11 +11,6 @@
         Up and Running with terraform documentation 
         Your first Terraform project
 
-
-
-
-
-
 # Day 2: Basic Infrastructure Deployment with Terraform
 ======================================================
 1. Terraform configuration files     
@@ -32,27 +27,6 @@
 5. .hcl
 6. .tfignore
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Day 3: Terraform Folder Structure for 
 Terraform Folder Layout
 Resources Blocks
@@ -65,45 +39,10 @@ Project 1: Deploying VPC, Internet Gateway, Subnets and Route-table
     Managing remote state with S3 backends
     Terraform remote state locking
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Day 5: Working with Data
     Creating and using Terraform modules
     Terraform lifecycle
         * create_before_destroy = false
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Day 6: Advanced Terraform Concepts
     Terraform Module
@@ -115,7 +54,6 @@ Project 1: Deploying VPC, Internet Gateway, Subnets and Route-table
 
 # Day 8: Terraform Best Practices
     Terraform expressions
-
 
 # Day 9: Terraform Workflows
     Loops and iterations in Terraform
