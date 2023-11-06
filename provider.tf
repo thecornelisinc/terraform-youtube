@@ -11,5 +11,5 @@ terraform {
 provider "aws" {
   # Configuration options
   region = "us-east-1" 
-  profile = "357225030460_AWSAdministratorAccess"   
+  # profile = "357225030460_AWSAdministratorAccess"   
 }

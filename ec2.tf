@@ -7,7 +7,7 @@ resource "aws_instance" "example" {
   subnet_id     = aws_subnet.main_subnet.id
   key_name = data.aws_key_pair.keypair.key_name
   tags = {
-    Name = var.instance_tag    
+    Name = var.instance_tag 
   }
 
   lifecycle {
@@ -15,3 +15,6 @@ resource "aws_instance" "example" {
     ignore_changes = [ tags ]
   }
 }
+
+
+
