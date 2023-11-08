@@ -51,14 +51,45 @@ Project 1: Deploying VPC, Internet Gateway, Subnets and Route-table
 
 # Day 7: Advanced Terraform Concepts(Part 2)
     Terraform functions 
+        String Functions
+            lower
+            upper
+            title
+            trimspace
+        Numberic Function
+            min
+            max
+            abs
+            ceil
+            floor 
 
-# Day 8: Terraform Best Practices
+        Collection Function 
+            length
+
+        
+
+# Day 8: Terraform Expression
     Terraform expressions
+        - What is Terraform Expression?
+        - Why Terraform Expression
+        - What Data type can Terraform expression resolved to?
+        - Operators
+            * Arithmetic Operator
+            * Equality Operator  
+            * Comparison Operators
+            * Logical Operators
+        - Basic Terraform Expression
+            * Interpolation of Variables into String
+        - Mathematical Expression
+            * Performing basic math operations 
+        - Conditional Expression        
+        - Dynamic Blocks Expression
 
-# Day 9: Terraform Workflows
-    Loops and iterations in Terraform
-    Conditional resource creation
+
+
+# Day 9: Terraform Import(recorded Video)
+    Hands-on project: Deploy a Three-tier application with Terraform
     
 # Day 10: Real-World Projects
-    Hands-on project: Deploy a Three-tier application with Terraform
+    Import resources from terraform
     Troubleshooting and debugging Terraform issues
